@@ -1,1 +1,5 @@
-* text=auto
+# Ensure all text files have LF line endings in the repository
+* text=auto eol=lf
+# Windows batch files require CRLF line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
